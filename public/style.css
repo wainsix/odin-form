@@ -1,3 +1,17 @@
 .formContainer {
   display: flex;
 }
+#bodyContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+#left {
+  background-color: blue;
+  width: 40%;
+}
+
+#right {
+  background-color: brown;
+  width: 60%;
+}
