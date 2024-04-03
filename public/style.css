@@ -5,13 +5,17 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+  height: 100vh;
 }
 #left {
-  background-color: blue;
+  display: flex;
+  flex-direction: column;
   width: 40%;
+  background: url(../pics/snowbg.png), hwb(172 22% 27%);
 }
-
 #right {
+  display: flex;
+  flex-direction: column;
   background-color: brown;
   width: 60%;
 }
