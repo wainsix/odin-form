@@ -1,21 +1,66 @@
-.formContainer {
-  display: flex;
-}
 #bodyContainer {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 100vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 #left {
   display: flex;
   flex-direction: column;
   width: 40%;
-  background: url(../pics/snowbg.png), hwb(172 22% 27%);
+  background: url(./pics/snowbg.png), hwb(172 22% 27%);
 }
+#lTop {
+  height: 30%;
+}
+#lMid {
+  padding: 20px;
+  font-size: 30px;
+  color: aliceblue;
+  background-color: black;
+  opacity: 0.5;
+}
+
 #right {
   display: flex;
   flex-direction: column;
-  background-color: brown;
+  background-color: aliceblue;
   width: 60%;
+}
+#rTop {
+  height: 25%;
+  text-align: center;
+  padding: 20px;
+}
+#rMid {
+  background-color: whitesmoke;
+  box-shadow: 0px 10px 5px lightblue;
+  padding: 20px;
+}
+#rBot {
+  padding: 20px;
+}
+a {
+  color: cornflowerblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+input {
+  padding: 0.5em;
+  border: 1px solid #666;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  background-color: cornflowerblue;
+  color: aliceblue;
+  border: none;
+}
+.row {
+  display: flex;
+}
+.col50 {
+  display: flex;
+  width: 50%;
 }
